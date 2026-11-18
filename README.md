@@ -61,7 +61,7 @@ Tested with Python 3.10.
 
 ## Additional results
 
-Due to the page limit, the paper reports results only for ML-1M with MF. Here we provide results on more datasets.
+Due to the page limit, the paper reports results only for ML-1M with MF. Here we provide results on more datasets and backbones.
 
 List-aware fidelity at K<sub>e</sub> = 10 (K = 20, τ = 0.7, c = 5). Higher is better for all columns; the best value per column within each dataset is in bold.
 
@@ -102,3 +102,5 @@ List-aware fidelity at K<sub>e</sub> = 10 (K = 20, τ = 0.7, c = 5). Higher is b
 | LIME | 0.000 | 0.35 | 0.00 | 0.52 | 0.001 | 0.63 | 0.08 |
 | LXR | 0.0005 | 0.43 | **0.01** | 0.77 | 0.04 | 0.84 | **0.16** |
 | SPINRec | 0.001 | **0.45** | **0.01** | 0.77 | 0.04 | **0.85** | **0.16** |
+
+### VAE
