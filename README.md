@@ -66,3 +66,7 @@ We use the preprocessed splits, item-similarity files, SHAP values and pretraine
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+## Additional results
+
+The paper reports ML-1M with MF. This section adds results for the other datasets (Yahoo! Music, Pinterest) and for the VAE backbone, using the same settings ($K = 20$, $\pi = 10$, $\tau = 0.7$, $c = 5$).
