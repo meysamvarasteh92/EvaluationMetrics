@@ -115,3 +115,9 @@ List-aware fidelity at K<sub>e</sub> = 10 (K = 20, τ = 0.7, c = 5). Higher is b
 | LIME | 0.000 | 0.85 | 0.12 | 0.63 | **0.37** | 0.60 | 0.08 |
 | LXR | **0.005** | 0.91 | 0.18 | 0.78 | – | 0.67 | **0.12** |
 | SPINRec | 0.001 | 0.93 | **0.19** | 0.78 | 0.25 | **0.68** | 0.11 |
+
+#### Yahoo! Music
+
+| Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
+|---|---|---|---|---|---|---|---|
+| Cosine | 0.001 | 0.91 | 0.31 | 0.57 | 0.86 | 0.83 | 0.18 |
