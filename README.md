@@ -118,5 +118,6 @@ Due to the page limit, the paper reports results only for ML-1M with MF. Here we
 
 | Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
 |---|---|---|---|---|---|---|---|
-| Cosine | 0.001 | **0.91** | **0.31** | **0.57** | **0.86** | **0.83** | **0.18** |
-| Jaccard | **0.002** | **0.91** | 0.30 | **0.57** | 0.84 | 0.82 | **0.18** |
+| Cosine | 0.001 | **0.91** | **0.31** | **0.57** | **0.86** | **0.83** | 0.18 |
+| Jaccard | 0.002 | **0.91** | 0.30 | **0.57** | 0.84 | 0.82 | 0.18 |
+| LXR | **0.003** | 0.89 | 0.30 | 0.54 | 0.76 | 0.81 | **0.19** |
