@@ -97,4 +97,6 @@ List-aware fidelity at $K_e = 10$ ($K = 20$, $\tau = 0.7$, $c = 5$). Higher is b
 
 | Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
 |---|---|---|---|---|---|---|---|
-| LXR | 0.0005 | 0.43 | 0.01 | 0.77 | 0.04 | 0.84 | 0.16 |
+| Cosine | **0.005** | 0.43 | **0.01** | 0.79 | **0.05** | 0.82 | 0.14 |
+| Jaccard | **0.005** | **0.44** | **0.01** | **0.80** | **0.05** | 0.81 | 0.13 |
+| LXR | 0.0005 | 0.43 | **0.01** | 0.77 | 0.04 | **0.84** | **0.16** |
