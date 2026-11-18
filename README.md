@@ -65,4 +65,30 @@ MIT, see [LICENSE](LICENSE).
 
 ## Additional results
 
-The paper reports ML-1M with MF. This section adds results for the other datasets (Yahoo! Music, Pinterest) and for the VAE backbone, using the same settings ($K = 20$, $\pi = 10$, $\tau = 0.7$, $c = 5$).
+List-aware fidelity at $K_e = 10$ ($K = 20$, $\tau = 0.7$, $c = 5$). Higher is better for all columns; the best value per column within each dataset is in bold.
+
+### MF
+
+#### ML-1M
+
+| Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
+|---|---|---|---|---|---|---|---|
+| Cosine | 0.005 | 0.48 | 0.02 | 0.83 | 0.13 | 0.38 | 0.03 |
+| Jaccard | 0.005 | **0.54** | **0.04** | **0.87** | **0.15** | 0.41 | 0.04 |
+| ACCENT | 0.000 | 0.17 | -0.10 | 0.56 | -0.03 | 0.28 | -0.02 |
+| SHAP | 0.001 | 0.33 | -0.03 | 0.72 | 0.05 | 0.28 | 0.00 |
+| LIME | 0.003 | 0.40 | 0.02 | 0.82 | 0.10 | 0.54 | 0.10 |
+| LXR | **0.010** | 0.43 | 0.02 | 0.80 | 0.10 | 0.57 | 0.10 |
+| SPINRec | **0.010** | 0.47 | 0.03 | 0.83 | 0.11 | **0.64** | **0.13** |
+
+#### Yahoo! Music
+
+| Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
+|---|---|---|---|---|---|---|---|
+| Cosine | 0.001 | 0.46 | 0.02 | **0.61** | **0.06** | 0.80 | 0.16 |
+| Jaccard | **0.005** | 0.46 | 0.02 | **0.61** | **0.06** | 0.81 | 0.15 |
+| ACCENT | 0.000 | 0.39 | -0.02 | 0.53 | 0.00 | 0.65 | 0.10 |
+| SHAP | 0.000 | 0.39 | -0.002 | 0.55 | 0.05 | 0.63 | 0.09 |
+| LIME | 0.000 | 0.47 | 0.02 | **0.61** | 0.05 | 0.77 | 0.15 |
+| LXR | 0.001 | **0.54** | **0.03** | 0.60 | 0.03 | **0.83** | **0.18** |
+| SPINRec | – | – | – | – | – | – | – |
