@@ -52,10 +52,6 @@ pip install -r requirements.txt
 
 Tested with Python 3.10.
 
-## Data and checkpoints
-
-We use the preprocessed splits, item-similarity files, SHAP values and pretrained recommender and LXR checkpoints from the LXR benchmark (Barkan et al.). Place them as described in [`data/README.md`](data/README.md) and [`checkpoints/README.md`](checkpoints/README.md).
-
 ## Reproducing the results
 
 1. **Generate explanations.** Open `generate_explanations.ipynb`, set `data_name` and `recommender_name`, and run all cells. This writes `data/<dataset>/<recommender>_<explainer>_expl_dict.pkl` for Jaccard, Cosine, LIME, SHAP, ACCENT and LXR.
