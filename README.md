@@ -59,10 +59,6 @@ Tested with Python 3.10.
 2. **Compute the metrics.** Run `evaluate_metrics.ipynb` with the same `data_name` and `recommender_name`. For every explainer it writes `results/<dataset>/<recommender>_<explainer>_metrics.pkl`, a dict mapping each metric to its values for $K_e = 1, \dots, \pi$.
 3. **Tables and figures.** Run `results.ipynb` to build the comparison table (CSV) and the target vs. non-target scatter plot (PDF) in `results/<dataset>/`.
 
-## License
-
-MIT, see [LICENSE](LICENSE).
-
 ## Additional results
 
 List-aware fidelity at $K_e = 10$ ($K = 20$, $\tau = 0.7$, $c = 5$). Higher is better for all columns; the best value per column within each dataset is in bold.
