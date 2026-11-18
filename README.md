@@ -120,4 +120,5 @@ List-aware fidelity at K<sub>e</sub> = 10 (K = 20, τ = 0.7, c = 5). Higher is b
 
 | Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
 |---|---|---|---|---|---|---|---|
-| Cosine | 0.001 | 0.91 | 0.31 | 0.57 | 0.86 | 0.83 | 0.18 |
+| Cosine | 0.001 | **0.91** | **0.31** | **0.57** | **0.86** | **0.83** | **0.18** |
+| Jaccard | **0.002** | **0.91** | 0.30 | **0.57** | 0.84 | 0.82 | **0.18** |
