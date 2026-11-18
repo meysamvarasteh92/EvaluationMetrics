@@ -104,3 +104,9 @@ List-aware fidelity at K<sub>e</sub> = 10 (K = 20, τ = 0.7, c = 5). Higher is b
 | SPINRec | 0.001 | **0.45** | **0.01** | 0.77 | 0.04 | **0.85** | **0.16** |
 
 ### VAE
+
+#### ML-1M
+
+| Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
+|---|---|---|---|---|---|---|---|
+| LXR | 0.005 | 0.91 | 0.18 | 0.78 | – | 0.67 | 0.12 |
