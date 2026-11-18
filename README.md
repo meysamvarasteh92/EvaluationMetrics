@@ -61,6 +61,8 @@ Tested with Python 3.10.
 
 ## Additional results
 
+Due to the page limit, the paper reports results only for ML-1M with MF. Here we provide results on more datasets.
+
 List-aware fidelity at K<sub>e</sub> = 10 (K = 20, τ = 0.7, c = 5). Higher is better for all columns; the best value per column within each dataset is in bold.
 
 ### MF
