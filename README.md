@@ -92,3 +92,9 @@ List-aware fidelity at $K_e = 10$ ($K = 20$, $\tau = 0.7$, $c = 5$). Higher is b
 | LIME | 0.000 | 0.47 | 0.02 | 0.61 | 0.05 | 0.77 | 0.15 |
 | LXR | 0.001 | 0.54 | 0.03 | 0.60 | 0.03 | 0.83 | **0.18** |
 | SPINRec | 0.001 | **0.56** | **0.06** | **0.62** | **0.07** | **0.84** | **0.18** |
+
+#### Pinterest
+
+| Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
+|---|---|---|---|---|---|---|---|
+| LXR | 0.0005 | 0.43 | 0.01 | 0.77 | 0.04 | 0.84 | 0.16 |
