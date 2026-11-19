@@ -107,11 +107,11 @@ Due to the page limit, the paper reports results only for ML-1M with MF. Here we
 
 | Explainer | Validity Cov | Necessity Cov | Necessity Δ | Sufficiency Cov | Sufficiency Δ | Rank Degr. Cov | Rank Degr. Δ |
 |---|---|---|---|---|---|---|---|
-| Jaccard | 0.002 | **0.94** | 0.18 | **0.82** | – | 0.67 | **0.12** |
+| Jaccard | 0.002 | **0.94** | 0.18 | **0.82** |  | 0.67 | **0.12** |
 | ACCENT | 0.000 | 0.73 | 0.07 | 0.48 | 0.15 | 0.42 | 0.04 |
 | SHAP | 0.000 | 0.59 | 0.02 | 0.33 | -0.06 | 0.45 | 0.04 |
 | LIME | 0.000 | 0.85 | 0.12 | 0.63 | **0.37** | 0.60 | 0.08 |
-| LXR | **0.005** | 0.91 | 0.18 | 0.78 | – | 0.67 | **0.12** |
+| LXR | **0.005** | 0.91 | 0.18 | 0.78 |  | 0.67 | **0.12** |
 | SPINRec | 0.001 | 0.93 | **0.19** | 0.78 | 0.25 | **0.68** | 0.11 |
 
 #### Yahoo! Music
